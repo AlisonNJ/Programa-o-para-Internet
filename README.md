@@ -7,7 +7,7 @@ conexao.php:
 É com ele que faz a conexão do banco de dados com o php caso as variaveis tiverem certas, se não, ele não vai conectar e vai aparecer uma mensagem falando que deu erro;
 
 index.php:
-Esse é o menu de login, é nele que você coloca os dados cadastrados no banco de dados, no arquivo ele inclui os dados da 'conexao.php' para saber e identificar se os dados colocados no 'index.php' estão no banco de dados, se tiverem, ele vai ser lavado pro 'painel.php', caso não tiver, ele manda uma mensagem dissendo "Falha ao Login";
+Esse é o menu de login, é nele que você coloca os dados cadastrados no banco de dados, no arquivo ele inclui os dados da 'conexao.php' para saber e identificar se os dados colocados no 'index.php' estão no banco de dados, se tiverem, ele vai ser levado pro 'painel.php', caso não tiver, ele manda uma mensagem dissendo "Falha ao Login";
 
 painel.php:
 Esse é onde a pessoas, depois de colocar os dados certos, vai e mostra bom dia e o nome do usuario, nela tem uma opção de sair da conta e voltar para o menu de login;
